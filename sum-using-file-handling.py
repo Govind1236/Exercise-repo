@@ -15,8 +15,8 @@ def calculate_sum(input_file, output_file):
         
         with open(output_file,'w') as f:
             f.write(str(total_sum))
-        print("sum sucessfully written to: ", output_file)
-    except UnboundLocalError:
+        print("sum sucessfully written to",output_file)
+    except FileNotFoundError:
        print("File not found")
 input_file = "numbers.txt"
 output_file = "sum.txt"
