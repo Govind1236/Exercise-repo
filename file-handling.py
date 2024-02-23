@@ -13,8 +13,7 @@ def word_counts(input_file, output_file):
         with open(input_file,'r') as f:
           text = f.read() 
           count_words = len(text.split())
-        
-
+    
         with open(output_file,'w') as f:
             f.write(str(count_words))
     
