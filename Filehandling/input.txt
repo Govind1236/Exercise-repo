@@ -1,1 +1,9 @@
-hello world
+Write a Python program that reads a text file named
+"input.txt", counts the number of words in the file, and then writes
+the count to another file named "word_count.txt".
+Instructions:
+
+    Create a text file named "input.txt" and write some text in it.
+    Write a Python program that reads the contents of "input.txt", counts the number of words,
+    and then writes this count to a new file named "word_count.txt".
+    Run the Python program and verify that "word_count.txt" contains the correct word count
