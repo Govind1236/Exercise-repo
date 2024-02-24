@@ -4,7 +4,7 @@
 
 #     Create a text file named "numbers.txt" and write some numbers (one number per line) in it.
 #     Write a Python program that reads the numbers from "numbers.txt", calculates 
-# their sum, and then writes this sum to a new file named "sum.txt".
+#     their sum, and then writes this sum to a new file named "sum.txt".
 #     Run the Python program and verify that "sum.txt" contains the correct sum.
 
 def calculate_sum(input_file, output_file):
@@ -18,6 +18,6 @@ def calculate_sum(input_file, output_file):
         print("sum sucessfully written to",output_file)
     except FileNotFoundError:
        print("File not found")
-input_file = "numbers.txt"
+input_file = "numbers.txt" 
 output_file = "sum.txt"
 calculate_sum(input_file , output_file)
