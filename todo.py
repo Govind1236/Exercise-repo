@@ -11,9 +11,9 @@ def listTask():
         for index,tasks in enumerate(task):
             print(f"Task {index}. {tasks}")
 def deleteTask():
-    addTask()
+    listTask()
     try:
-        taskToDelete = int(input("Enter number to delete"))
+        taskToDelete = int(input("Enter number to delete: "))
         if taskToDelete >= 0 and  taskToDelete< len(task):
             task.pop(taskToDelete)
             print(f"Task {taskToDelete} has been removed.")
